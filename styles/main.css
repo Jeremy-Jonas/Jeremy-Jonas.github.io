@@ -1,10 +1,11 @@
 body {
     background:#444;
     font-family: Arial;
+    width: 800px;
     padding: 0 20px 20px 20px;
 }
 
-h1, {
+h1 {
     color: skyblue;
     text-align: center;
 }
