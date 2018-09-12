@@ -1,31 +1,52 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Technical Blog Part 1</title>
-    <meta charset="UTF-8">
-    <link href="../styles/main.css" rel="stylesheet" type="text/css">
-  </head>
-  
-  <body>
-    <h1>Technical Part 1</h1>
-    
-    <h3>24 August 2018</h3>
-    
-    <h2 class="subheading">So what is HTML, CSS and the DOM?</h2>
+<html lang="en">
+<head>
 
-    <p>One way you could look at them is to liken them to specific types of people. HTML is the person who is all about reading the manual and following the instructions to the letter. HTML cares about the words on the page and where you go if you click something. CSS on the other hand is the person who is all about style, they love taking some standard text and adding colour, borders, adjusting the layout and style of the content and just generally making the place look good. CSS isn't really bothered about the words on the page or where you will end up if you click something. Finally, the DOM. DOM is like the person who makes a flowchart for everything, they thrive on visual representations of plain text instructions to clearly show the order of the process, and clearly show what is a sub-process of another.</p>
+  <meta charset="utf-8">
+  <title>Technical Blog Part 1</title>
+  <meta name="author" content="Jeremy Jonas">
 
-    <h2 class="subheading">Boxifying Design? </h2>
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <p>Boxifying (yep, it's a real word!) your design is the process of taking an image or concept drawing of what the website should look like, and then either drawing or cutting it into separate boxes for each part of the page. A quick example is if you have a page with a heading, an image and some text, you would put a box around each part and end up with 3 boxes.</p>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" href="../styles/main.css">
+</head>
 
-    <h2 class="subheading">The Box Model</h2>
+<body>
+  <div class="container">
+    <div class="row">        
+      <div class="twelve columns" style="margin-top: 10%">
+        <h2 class="hero-heading">Technical Part 1</h2>
+      </div>
+    </div>
+  </div>
 
-    <p>The box model is basically a virtual box around HTML content, which can be controlled either directly from the HTML page itself, or from a CSS linked to the page. The box model is made up of 4 boxes inside eachother (almost like russian dolls). The center or smallest bos is the content itself, the next box out is the padding, the next bos is the border, and the final box is the margin.</p>
+  <div class="container">
+      <div class="row">
+        <div class="eight columns" style="margin-top: 1%">
+            <h5 class="subheading">So what is HTML, CSS and the DOM?</h5>
 
-    <p>
-      <a href="../index.html">Home</a>
-    </p>
-  
-  </body>
+            <p class="blog-body">One way you could look at them is to liken them to specific types of people. HTML is the person who is all about reading the manual and following the instructions to the letter. HTML cares about the words on the page and where you go if you click something. CSS on the other hand is the person who is all about style, they love taking some standard text and adding colour, borders, adjusting the layout and style of the content and just generally making the place look good. CSS isn't really bothered about the words on the page or where you will end up if you click something. Finally, the DOM. DOM is like the person who makes a flowchart for everything, they thrive on visual representations of plain text instructions to clearly show the order of the process, and clearly show what is a sub-process of another.</p>
+        
+            <h5 class="subheading">Boxifying Design? </h5>
+        
+            <p class="blog-body">Boxifying (yep, it's a real word!) your design is the process of taking an image or concept drawing of what the website should look like, and then either drawing or cutting it into separate boxes for each part of the page. A quick example is if you have a page with a heading, an image and some text, you would put a box around each part and end up with 3 boxes.</p>
+        
+            <h5 class="subheading">The Box Model</h5>
+        
+            <p class="blog-body">The box model is basically a virtual box around HTML content, which can be controlled either directly from the HTML page itself, or from a CSS linked to the page. The box model is made up of 4 boxes inside eachother (almost like russian dolls). The center or smallest bos is the content itself, the next box out is the padding, the next bos is the border, and the final box is the margin.</p>
+        
+            <p>
+        </div>
+        <div class="four columns right" style="margin-top: 1%">
+          <p><a class="button button-primary" href="../index.html">Home</a></p>
+        </div>
+      </div>
+    </div>
+
+</body>
 </html>

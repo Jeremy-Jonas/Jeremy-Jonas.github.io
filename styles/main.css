@@ -1,12 +1,32 @@
 body {
    /* background-color: rgb(64, 66, 66); */
-   background-image: linear-gradient(-45deg, #38393a, #696a6d);
+   background-image: linear-gradient(-45deg, #38393a, #696a6d)
 }
 
 .right {
-    text-align: right;
+    text-align: right
 }
 
 h2 {
-    color: rgb(241, 133, 133);
+    color: rgb(241, 133, 133)
+}
+
+.index-body {
+    color: whitesmoke
+}
+
+.profile-image {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.blog-body {
+    color:skyblue
+}
+
+h5 {
+    color:skyblue;
+    font-weight: bold
 }

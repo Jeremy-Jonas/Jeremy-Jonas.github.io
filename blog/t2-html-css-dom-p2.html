@@ -1,31 +1,50 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Technical Blog Part 2</title>
-    <meta charset="UTF-8">
-    <link href="../styles/main.css" rel="stylesheet" type="text/css">
-  </head>
-  
-  <body>
-    <h1>Technical Part 2</h1>
-    
-    <h3>26 August 2018</h3>
-    
-    <h2 class="subheading">What is Grid Based Design?</h2>
+<html lang="en">
+<head>
 
-    <p>The best way to think of this is that there is an invisible grid on the webpage which the smaller boxes can align to. You can of course go deeper and imagine every box has an invisible grid of its own, and you can put as many boxes within a box as needed. This allows the developer to easily align and position elements on a webpage, and offers the added advantage that a total page layout overhaul can be done relatively quickly by simplay moving boxes around on the grid.</p>
+  <meta charset="utf-8">
+  <title>Technical Blog Part 2</title>
+  <meta name="author" content="Jeremy Jonas">
 
-    <h2 class="subheading">What's All The Hype About Responsive Webpages?</h2>
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <p>In this day and age it is essential that websites be designed with responsive pages. The number of people viewing webpages on mobile devices increases every day, so if you want a website that people will find useful, it needs to be able to transform depending on the size of the screen it is being viewed on. Responsive webpages are able to detect the size of the screen, and the type of device and change the entire layout, colour, text size and even hide certain content from the webpage to enable it to be viewed easily and navigated easily no matter the screen size.</p>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" href="../styles/main.css">
+</head>
 
-    <h2 class="subheading">What is Semantic Structure?</h2>
+<body>
+  <div class="container">
+    <div class="row">        
+      <div class="twelve columns" style="margin-top: 10%">
+        <h2 class="hero-heading">Technical Part 2</h2>
+      </div>
+    </div>
+  </div>
 
-    <p>Semantic structure HTML uses elements which are easy to interperate by both the computer and human reading the code. This is achieved in a number of different ways, but the most common is by adding id="description of element" within the div tag of specific content on the webpage.</p>
+  <div class="container">
+      <div class="row">
+        <div class="eight columns" style="margin-top: 1%">
+            <h5>What is Grid Based Design?</h5>
 
-    <p>
-        <a href="../index.html">Home</a>
-    </p>
-  
-  </body>
+            <p class="blog-body">The best way to think of this is that there is an invisible grid on the webpage which the smaller boxes can align to. You can of course go deeper and imagine every box has an invisible grid of its own, and you can put as many boxes within a box as needed. This allows the developer to easily align and position elements on a webpage, and offers the added advantage that a total page layout overhaul can be done relatively quickly by simplay moving boxes around on the grid.</p>
+        
+            <h5>What's All The Hype About Responsive Webpages?</h5>
+        
+            <p class="blog-body">In this day and age it is essential that websites be designed with responsive pages. The number of people viewing webpages on mobile devices increases every day, so if you want a website that people will find useful, it needs to be able to transform depending on the size of the screen it is being viewed on. Responsive webpages are able to detect the size of the screen, and the type of device and change the entire layout, colour, text size and even hide certain content from the webpage to enable it to be viewed easily and navigated easily no matter the screen size.</p>
+        
+            <h5>What is Semantic Structure?</h5>
+        
+            <p class="blog-body">Semantic structure HTML uses elements which are easy to interperate by both the computer and human reading the code. This is achieved in a number of different ways, but the most common is by adding id="description of element" within the div tag of specific content on the webpage.</p>
+        </div>
+        <div class="four columns right" style="margin-top: 1%">
+          <p><a class="button button-primary" href="../index.html">Home</a></p>
+        </div>
+      </div>
+    </div>
+
+</body>
 </html>
